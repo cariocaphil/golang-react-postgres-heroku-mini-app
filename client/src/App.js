@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import BingoComponent from './BingoComponent';
+import bingoBongoPhoto from './bingo-bongo.jpeg'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={bingoBongoPhoto} className="App-logo" alt="logo" />
         <p>
           When React goes Bingo, and Go goes Bongo, you get:
         </p>
